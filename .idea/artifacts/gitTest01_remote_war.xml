@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gitTest01_remote:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gitTest01_remote</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="git1902_xyc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gitTest01_remote:war exploded" />
+    </root>
+  </artifact>
+</component>
